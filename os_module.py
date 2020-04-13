@@ -20,7 +20,7 @@ print(os.getcwd())
 
 # os.makedirs('OS_Module_Dir2/Sub-Dir-2')# This will create the sub-level directory if the parent directory does not exists even
 # os.removedirs('OS_Module_Dir2/Sub-Dir-1')  # To remove the subb level directory
-
+# changes in master branch
 #-------------------------------------------------------------------------------------------------------#
 
 # ROUGH WORK
@@ -35,8 +35,8 @@ print(b)
 # open(os.path.join('VLC File', b), 'wb').close()
 if(not os.path.exists(a + '/VLC File')):
     os.makedirs('VLC File')
-os.rename('/Users/Vinay Pathak/Desktop/python/class.mkv', a + '/VLC File/' + b)  # Moving The File From python to VLC File
-
+os.rename('/Users/Vinay Pathak/Desktop/python/class.mkv', a + '/VLC File/' + b)  # Moving The File from python to VLC File
+os.replace('/Users/Vinay Pathak/Desktop/python/class.mkv', a + '/VLC File/' + b) # Moving the File from python to VLC Filr
 #-------------------------------------------------------------------------------------------------------#
 
 # Renaming the file name
